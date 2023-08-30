@@ -11,6 +11,7 @@ export function Navbar() {
                 </Link>
             </div>
             <div className='header-left'>
+                <Link to="./">Home</Link>
                 <Link to="./shop">Shop</Link>
                 <Link to="./about">About Us</Link>
             </div>
@@ -21,6 +22,7 @@ export function Navbar() {
             <div className='cart'>
                 <Link>
                     <FaCartShopping />
+                    <div className='circle-count '>3</div>
                 </Link>
             </div>
         </div>

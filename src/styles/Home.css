@@ -1,0 +1,67 @@
+:root {
+    --text-colour: #fff;
+    --text-colour-secondary: #d80606; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-colour);
+    background-image: url('../assets/car-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.image-container h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.image-container p {
+    font-size: 1.1rem;
+}
+
+.shop-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: var(--text-colour);
+    background-color: var(--text-colour-secondary);
+    outline: none;
+    border: none;
+    width: 150px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 2px;
+}

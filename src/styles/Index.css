@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(27, 27, 27);
     letter-spacing: 2px;
+}
+
+body {
+    background-color: #ebebeb;
 }
 
