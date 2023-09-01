@@ -45,23 +45,82 @@
     width: 150px;
     font-size: 1rem;
     margin-top: 20px;
-}
-
-.content-container {
-    max-width: 800px;
-    margin: auto;
+    cursor: pointer;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
     padding: 25px;
     margin-top: 50px;
+    gap: 20px;
     font-size: 0.8rem;
     text-transform: uppercase;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     border-radius: 2px;
+}
+
+.card-container p {
+    font-size: 0.7rem;
+}
+
+.card-text {
+    display: flex;
+    justify-content: ce;
+    flex-direction: column;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--text-colour-secondary) 2px solid;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.card-icon svg {
+    font-size: 1.5rem;
+}
+
+.promotion-container {
+    display: flex;
+    padding: 80px;
+    background: linear-gradient(97deg, rgba(75,0,0,1) 0%, rgba(216,6,6,1) 100%);
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.promotion-text {
+    padding-left: 80px;
+    font-size: 1.8rem;
+}
+
+.promotion-image {
+    background-image: url('../assets/brakes.png');
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-colour);
+    padding: 50px;
+}
+
+.trust-container, .latest-container {
+    padding: 80px;
+}
+
+.trust-container {
+    background-color: black;
+}
+
+.latest-container {
+    background-color: var(--text-colour-secondary);
 }
