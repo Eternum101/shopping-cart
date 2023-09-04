@@ -12,7 +12,7 @@ export function Navbar() {
             </div>
             <div className='header-left'>
                 <Link to="./">Home</Link>
-                <Link to="./shop">Shop</Link>
+                <Link to="./store">Shop</Link>
                 <Link to="./about">About Us</Link>
             </div>
         <div className='header-right'>

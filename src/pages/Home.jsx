@@ -13,7 +13,7 @@ export function Home() {
             unbeatable prices.
             </p>
             <button className="shop-btn">
-                <Link to="./shop">SHOP ALL</Link>
+                <Link to="./store">SHOP ALL</Link>
             </button>
         </div>
     </div>
@@ -55,7 +55,7 @@ export function Home() {
         <div className='trust-container'>
             <h3>Brands We Trust</h3>
             <p>We provide over 450 of the world's highest quality automotive parts</p>
-            <Link to="./shop">Browse All Parts</Link>
+            <Link to="./store">Browse All Parts</Link>
         </div>
         <div className='latest-container'>
             <p>Subscribe To Our Newsletter</p>
