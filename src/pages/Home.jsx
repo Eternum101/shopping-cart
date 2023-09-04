@@ -1,5 +1,7 @@
 import '../styles/Home.css'
 import { FaTruckFast, FaDollarSign, FaHeadset } from 'react-icons/fa6'
+import Brakes from '../assets/brakes.png'
+import { Link } from 'react-router-dom'
 
 export function Home() {
     return (
@@ -10,10 +12,13 @@ export function Home() {
             <p>PartsGeek is your one-stop-shop for high-quality auto parts at 
             unbeatable prices.
             </p>
-            <button className="shop-btn">SHOP ALL</button>
+            <button className="shop-btn">
+                <Link to="./shop">SHOP ALL</Link>
+            </button>
         </div>
     </div>
     <div className='card-container'>
+        <div className='card-content'>
             <div className='card-icon'>
                 <FaTruckFast/>
             </div>
@@ -36,21 +41,29 @@ export function Home() {
                 <p>Buy Now, Pay Later Options Avaliable</p>
             </div>
         </div>
+    </div>
     <div className='promotion-container'>
         <div className='promotion-text'>
             <h3>Take Care of Your Brakes - 40% Off</h3>
             <p>For Orders Over $100</p>
         </div>
-        <div className='promotion-image'></div>
+        <div className='promotion-image'>
+            <img src={ Brakes }></img>
+        </div>
     </div>
     <div className='offers-container'>
         <div className='trust-container'>
             <h3>Brands We Trust</h3>
             <p>We provide over 450 of the world's highest quality automotive parts</p>
+            <Link to="./shop">Browse All Parts</Link>
         </div>
         <div className='latest-container'>
             <p>Subscribe To Our Newsletter</p>
             <h3>Get the Latest News & Amazing Offers</h3>
+        <div className='latest-search'>
+            <input type='text' placeholder='Enter Your Email'></input>
+            <button className='btn-subscribe'>Subscribe</button>
+        </div>
         </div>
     </div>
     </>

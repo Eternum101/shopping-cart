@@ -3,6 +3,7 @@ import { Home } from "./pages/Home"
 import { About } from "./pages/About"
 import { Store } from "./pages/Store"
 import { Navbar } from "./components/Navbar"
+import { Footer } from "./components/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
     </div>
+    <Footer />
     </>
   )
 }
