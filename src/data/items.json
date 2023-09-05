@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "category": "Brake Parts",
+      "title": "Front Brake Pad Set",
+      "description": "High-quality front brake pad set for various vehicle models.",
+      "image": "https://m.media-amazon.com/images/I/714zDqcKVYL._AC_UF894,1000_QL80_.jpg",
+      "price": 35.00
+    },
+    {
+      "id": "2",
+      "category": "Brake Parts",
+      "title": "Rear Brake Pad Set",
+      "description": "High-quality rear brake pad set for various vehicle models.",
+      "image": "https://i.ebayimg.com/images/g/oDgAAOSwXYtYxUif/s-l1600.png",
+      "price": 45.00
+    },
+    {
+      "id": "3",
+      "category": "Suspension Parts",
+      "title": "Front Suspension Strut Assembly",
+      "description": "Front suspension strut assembly for enhanced ride comfort.",
+      "image": "https://www.autopartsco.com.au/assets/full/84677.png?20210309033015",
+      "price": 75.00
+    },
+    {
+      "id": "4",
+      "category": "Suspension Parts",
+      "title": "Rear Shock Absorber",
+      "description": "Durable rear shock absorber for optimal suspension performance.",
+      "image": "https://www.advancedinstalls.com.au/cdn/shop/products/BilsteinB6Rearshocks_1200x1200.png?v=1631635091",
+      "price": 50.00
+    },
+    {
+      "id": "5",
+      "category": "Engine Oil and Filter Parts",
+      "title": "Full Synthetic Motor Oil 5W-40 TOPTEC",
+      "description": "High-quality full synthetic motor oil for engine protection.",
+      "image": "https://www.storesingapore.liquimolyasia.com/cdn/shop/products/Liqui_Moly_Singapore_Top_Tec_4100_5W40_1L_Engine_Oil_580x.png?v=1507264435",
+      "price": 28.00
+    },
+    {
+      "id": "6",
+      "category": "Engine Oil and Filter Parts",
+      "title": "Engine Oil Filter",
+      "description": "Engine oil filter designed for efficient filtration.",
+      "image": "https://www.densoautoparts.com/wp-content/uploads/2022/10/Oil-Filter-web2.png",
+      "price": 8.00
+    }
+  ]
