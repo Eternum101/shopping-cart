@@ -2,8 +2,6 @@ footer {
     padding: 15px;
     background-color: #1b1b1b;
     color: white;
-    position: relative;
-    margin-top: 50px;
 }
 
 footer h3 {
@@ -29,7 +27,7 @@ footer span {
     gap: 5px;
 }
 
- ul {
+ul {
     list-style: none;
 }
 

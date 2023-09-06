@@ -1,0 +1,48 @@
+.part-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .part-image img {
+    max-width: 400px;
+    max-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .part-info {
+    margin-left: 20px;
+  }
+  
+  .part-info h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .part-price {
+    font-size: 18px;
+    color: #d80606;
+  }
+  
+  .part-description {
+    font-size: 16px;
+  }
+  
+  .add-to-cart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #d80606;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #a60303;
+  }
+  
