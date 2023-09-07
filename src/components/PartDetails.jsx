@@ -23,6 +23,7 @@ function PartDetails() {
   }
 
   return (
+    <>
     <div className="part-details-container">
       <div className="part-image">
         <img src={part.image} alt={part.title} />
@@ -31,9 +32,22 @@ function PartDetails() {
         <h2>{part.title}</h2>
         <p className="part-price">{FormatCurrency(part.price)}</p>
         <p className="part-description">{part.description}</p>
-        <button className="add-to-cart-btn">+ Add to Cart</button>
+        <p className="part-stock">{part.stock}</p>
+        <p className="part-sku">SKU: <span>{part.sku}</span></p>
+        <p className="part-category">Category: <span>{part.category}</span></p>
+        <div className="quantity-button-container">
+          <button className="quantity-btn">
+            -
+          </button>
+          <input className="input-quantity" type="number" value="1" inputMode="numeric"></input>
+          <button className="quantity-btn">
+            +
+          </button>
+          <button className="add-to-cart-btn">+ Add to Cart</button>
+        </div>
       </div>
     </div>
+    </>
   );
 }
 

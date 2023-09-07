@@ -5,7 +5,9 @@
       "title": "Front Brake Pad Set",
       "description": "High-quality front brake pad set for various vehicle models.",
       "image": "https://m.media-amazon.com/images/I/714zDqcKVYL._AC_UF894,1000_QL80_.jpg",
-      "price": 35.00
+      "price": 35.00,
+      "stock": "9 in Stock (Can be Backordered)",
+      "sku": "BOSCHFBRAKEPADSET"
     },
     {
       "id": "2",
@@ -13,7 +15,9 @@
       "title": "Rear Brake Pad Set",
       "description": "High-quality rear brake pad set for various vehicle models.",
       "image": "https://i.ebayimg.com/images/g/oDgAAOSwXYtYxUif/s-l1600.png",
-      "price": 45.00
+      "price": 45.00,
+      "stock": "5 in Stock (Can be Backordered)",
+      "sku": "BOSCHRBRAKEPADSET"
     },
     {
       "id": "3",
@@ -21,7 +25,9 @@
       "title": "Front Suspension Strut Assembly",
       "description": "Front suspension strut assembly for enhanced ride comfort.",
       "image": "https://www.autopartsco.com.au/assets/full/84677.png?20210309033015",
-      "price": 75.00
+      "price": 75.00,
+      "stock": "2 in Stock (Can be Backordered)",
+      "sku": "BILSTEINFSUSPENSION"
     },
     {
       "id": "4",
@@ -29,7 +35,9 @@
       "title": "Rear Shock Absorber",
       "description": "Durable rear shock absorber for optimal suspension performance.",
       "image": "https://www.advancedinstalls.com.au/cdn/shop/products/BilsteinB6Rearshocks_1200x1200.png?v=1631635091",
-      "price": 50.00
+      "price": 50.00,
+      "stock": "8 in Stock (Can be Backordered)",
+      "sku": "BILSTEINRSHOCK"
     },
     {
       "id": "5",
@@ -37,7 +45,9 @@
       "title": "Full Synthetic Motor Oil 5W-40 TOPTEC",
       "description": "High-quality full synthetic motor oil for engine protection.",
       "image": "https://www.storesingapore.liquimolyasia.com/cdn/shop/products/Liqui_Moly_Singapore_Top_Tec_4100_5W40_1L_Engine_Oil_580x.png?v=1507264435",
-      "price": 28.00
+      "price": 28.00,
+      "stock": "15 in Stock (Can be Backordered)",
+      "sku": "LIQUIMOLYFULLSMOTOROIL5W40"
     },
     {
       "id": "6",
@@ -45,6 +55,8 @@
       "title": "Engine Oil Filter",
       "description": "Engine oil filter designed for efficient filtration.",
       "image": "https://www.densoautoparts.com/wp-content/uploads/2022/10/Oil-Filter-web2.png",
-      "price": 8.00
+      "price": 8.00,
+      "stock": "27 in Stock (Can be Backordered)",
+      "sku": "MANN245OILF"
     }
   ]
