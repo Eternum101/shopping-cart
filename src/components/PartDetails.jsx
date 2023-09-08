@@ -3,10 +3,14 @@ import { useParams } from "react-router-dom";
 import items from '../data/items.json';
 import '../styles/PartDetails.css';
 import { FormatCurrency } from '../utilities/FormatCurrency'
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 function PartDetails() {
   const { id } = useParams();
   const [part, setPart] = useState(null);
+  const { addItemToCart } = useShoppingCart();
+
+  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     const foundPart = items.find((item) => item.id === id);
@@ -20,6 +24,20 @@ function PartDetails() {
 
   if (!part) {
     return <div>Loading...</div>;
+  }
+
+  const handleIncrement = () => {
+    setQuantity(quantity + 1);
+  }
+  
+  const handleDecrement = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  }
+
+  const addToCart = () => {
+    addItemToCart(part, quantity);
   }
 
   return (
@@ -36,14 +54,17 @@ function PartDetails() {
         <p className="part-sku">SKU: <span>{part.sku}</span></p>
         <p className="part-category">Category: <span>{part.category}</span></p>
         <div className="quantity-button-container">
-          <button className="quantity-btn">
+          <button className="quantity-btn" onClick={handleDecrement}>
             -
           </button>
-          <input className="input-quantity" type="number" value="1" inputMode="numeric"></input>
-          <button className="quantity-btn">
+          <input className="input-quantity" type="number" 
+          value={quantity} inputMode="numeric" 
+          onChange={(e) => setQuantity(parseInt(e.target.value) || 1)}>
+          </input>
+          <button className="quantity-btn" onClick={handleIncrement}>
             +
           </button>
-          <button className="add-to-cart-btn">+ Add to Cart</button>
+          <button className="add-to-cart-btn" onClick={addToCart}>+ Add to Cart</button>
         </div>
       </div>
     </div>

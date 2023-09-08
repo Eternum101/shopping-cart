@@ -5,9 +5,11 @@ import { Store } from "./pages/Store"
 import { Navbar } from "./components/Navbar"
 import { Footer } from "./components/Footer"
 import PartDetails from "./components/PartDetails"
+import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 function App() {
   return (
+  <ShoppingCartProvider>
     <>
     <Navbar />
     <div>
@@ -20,6 +22,7 @@ function App() {
     </div>
     <Footer />
     </>
+  </ShoppingCartProvider>
   )
 }
 
