@@ -53,17 +53,21 @@ export function Home() {
     </div>
     <div className='offers-container'>
         <div className='trust-container'>
-            <h3>Brands We Trust</h3>
-            <p>We provide over 450 of the world's highest quality automotive parts</p>
-            <Link to="./store">Browse All Parts</Link>
+            <div className='trust-info'>
+                <h3>Brands We Trust</h3>
+                <p>We provide over 450 of the world's highest quality automotive parts</p>
+                <Link to="./store">Browse All Parts</Link>
+            </div>
         </div>
         <div className='latest-container'>
+            <div className='latest-info'>
             <p>Subscribe To Our Newsletter</p>
             <h3>Get the Latest News & Amazing Offers</h3>
         <div className='latest-search'>
             <input type='text' placeholder='Enter Your Email'></input>
             <button className='btn-subscribe'>Subscribe</button>
         </div>
+            </div>
         </div>
     </div>
     </>

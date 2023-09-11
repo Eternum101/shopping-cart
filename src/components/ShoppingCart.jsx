@@ -26,7 +26,11 @@ const subtotal = cartItems.reduce(
 
     return (
       <>
-        <div className={`shopping-cart-menu ${isOpen ? "open" : ""}`}>
+      {isOpen && (
+        <div className="background-overlay"></div>
+      )}
+
+      <div className={`shopping-cart-menu ${isOpen ? "open" : ""}`}>
           <div className="cart-content">
             <h2>Shopping Cart</h2>
             {cartItems.map((item) => (

@@ -10,6 +10,8 @@ header {
     padding: 20px;
     color: var(--text-colour);
     background-color: #1b1b1b;
+    position: sticky;
+    top: 0;
 }
 
 .logo span {
@@ -76,5 +78,9 @@ input {
     right: 0;
     transform: translate(25%, 25%);
     font-weight: bold;
+}
+
+.nav-link.active {
+    color: var(--text-colour-secondary);
 }
 

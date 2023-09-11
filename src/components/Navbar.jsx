@@ -10,7 +10,19 @@ export function Navbar() {
     const handleCartClick = () => {
         console.log('Cart clicked');
         openCart();
-      };
+    };
+
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+            navLinks.forEach((navLink) => {
+                navLink.classList.remove('active');
+            });
+
+            event.target.classList.add('active');
+        })
+    })
 
     return (
         <header>
@@ -20,9 +32,9 @@ export function Navbar() {
                 </Link>
             </div>
             <div className='header-left'>
-                <Link to="./">Home</Link>
-                <Link to="./store">Shop</Link>
-                <Link to="./about">About Us</Link>
+                <Link to="./" className='nav-link'>Home</Link>
+                <Link to="./store" className='nav-link'>Shop</Link>
+                <Link to="./about" className='nav-link'>About Us</Link>
             </div>
         <div className='header-right'>
             <div className='search-input'>

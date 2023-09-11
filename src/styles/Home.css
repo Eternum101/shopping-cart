@@ -120,15 +120,11 @@
     justify-content: center;
     align-items: center;
     color: var(--text-colour);
-    margin: 10px auto;
 }
 
 .trust-container, .latest-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     padding: 50px;
-    height: 200px;
+    height: 250px;
     width: 100%;
 }
 
@@ -137,11 +133,22 @@
 }
 
 .trust-container {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(32, 32, 32);
 }
 
 .latest-container {
     background-color: var(--text-colour-secondary)
+}
+
+.trust-info, .latest-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.trust-info a:hover {
+    color: var(--text-colour-secondary);
 }
 
 input {
@@ -156,8 +163,6 @@ input {
 
 .latest-search input {
     color: black;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
     padding: 8px;
 }
 
@@ -174,4 +179,83 @@ input {
     color: white;
     cursor: pointer;
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        min-height: 300px;
+    }
+
+    .image-container h2 {
+        font-size: 2rem;
+    }
+
+    .image-container p {
+        font-size: 1rem;
+    }
+
+    .shop-btn {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .card-container {
+        padding: 30px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .card-icon {
+        margin-bottom: 10px;
+    }
+
+    .card-icon svg {
+        font-size: 1.2rem;
+    }
+
+    .promotion-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .promotion-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .promotion-image img {
+        width: 120px;
+    }
+
+    .promotion-text {
+        padding-left: 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .trust-container, .latest-container {
+        padding: 20px;
+    }
+
+    .trust-info, .latest-info {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .trust-info a {
+        font-size: 0.8rem;
+    }
+
+    .latest-search input {
+        font-size: 0.8rem;
+    }
+
+    .btn-subscribe {
+        font-size: 0.8rem;
+    }
 }
