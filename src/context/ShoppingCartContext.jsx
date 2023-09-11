@@ -1,5 +1,4 @@
 import { createContext, useContext, useState } from "react";
-import { ShoppingCart } from "../components/ShoppingCart";
 
 const ShoppingCartContext = createContext({})
 
@@ -29,6 +28,32 @@ export function ShoppingCartProvider( { children } ) {
           ]);
         }
       };
+
+    const incrementItem = (itemId) => {
+      setCartItems((prevCartItems) =>
+        prevCartItems.map((cartItem) =>
+          cartItem.id === itemId
+            ? { ...cartItem, quantity: cartItem.quantity + 1 }
+            : cartItem
+        )
+     );
+    };
+
+    const decrementItem = (itemId) => {
+      setCartItems((prevCartItems) =>
+        prevCartItems.map((cartItem) =>
+          cartItem.id === itemId && cartItem.quantity > 1
+            ? { ...cartItem, quantity: cartItem.quantity - 1 }
+            : cartItem
+        )
+      );
+    };
+
+    const removeItem = (itemId) => {
+      setCartItems((prevCartItems) =>
+      prevCartItems.filter((cartItem) => cartItem.id !== itemId)
+      );
+    }
     
       const cartQuantity = cartItems.reduce(
         (total, cartItem) => total + cartItem.quantity,
@@ -40,7 +65,7 @@ export function ShoppingCartProvider( { children } ) {
 
     return (
     <>
-    <ShoppingCartContext.Provider value={{cartItems, addItemToCart, cartQuantity, openCart, closeCart, isOpen}}>
+    <ShoppingCartContext.Provider value={{cartItems, addItemToCart, cartQuantity, openCart, closeCart, isOpen, incrementItem, decrementItem, removeItem}}>
         {children}
     </ShoppingCartContext.Provider>
     </>
