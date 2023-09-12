@@ -46,6 +46,11 @@
     font-size: 1rem;
     margin-top: 20px;
     cursor: pointer;
+    transition: background-color 250ms ease-in-out;
+}
+
+.shop-btn:hover {
+    background-color: #a60303;
 }
 
 .card-container {
@@ -244,7 +249,7 @@ input {
     }
 
     .trust-info, .latest-info {
-        padding: 10px; /* Reduce padding */
+        padding: 10px; 
     }
 
     .trust-info a {
