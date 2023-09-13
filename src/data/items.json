@@ -1,82 +1,82 @@
 [
-    {
-      "id": "1",
-      "category": "Brake Parts",
-      "title": "Brembo Front Brake Pad Set",
-      "description": "High-quality front brake pad set for various vehicle models.",
-      "image": "https://www.bremboparts.com/en/media/page/images/1000-1000-fix/60865a7b-935d-4d23-98a1-98b3850594d2",
-      "price": 35.00,
-      "stock": "9 in Stock (Can be Backordered)",
-      "sku": "BREMBOFBRAKEPADSET"
-    },
-    {
-      "id": "2",
-      "category": "Brake Parts",
-      "title": "Bosch Rear Brake Pad Set",
-      "description": "High-quality rear brake pad set for various vehicle models.",
-      "image": "https://i.ebayimg.com/images/g/oDgAAOSwXYtYxUif/s-l1600.png",
-      "price": 45.00,
-      "stock": "5 in Stock (Can be Backordered)",
-      "sku": "BOSCHRBRAKEPADSET"
-    },
-    {
-      "id": "3",
-      "category": "Suspension Parts",
-      "title": "Bilstein Front Suspension Strut Assembly",
-      "description": "Front suspension strut assembly for enhanced ride comfort.",
-      "image": "https://www.autopartsco.com.au/assets/full/84677.png?20210309033015",
-      "price": 75.00,
-      "stock": "2 in Stock (Can be Backordered)",
-      "sku": "BILSTEINFSUSPENSION"
-    },
-    {
-      "id": "4",
-      "category": "Suspension Parts",
-      "title": "Bilstein Rear Shock Absorber",
-      "description": "Durable rear shock absorber for optimal suspension performance.",
-      "image": "https://www.advancedinstalls.com.au/cdn/shop/products/BilsteinB6Rearshocks_1200x1200.png?v=1631635091",
-      "price": 50.00,
-      "stock": "8 in Stock (Can be Backordered)",
-      "sku": "BILSTEINRSHOCK"
-    },
-    {
-      "id": "5",
-      "category": "Engine Oil and Filter Parts",
-      "title": "Liqui Moly 5W-40 Top Tec 4100",
-      "description": "High-quality full synthetic motor oil for engine protection.",
-      "image": "https://www.storesingapore.liquimolyasia.com/cdn/shop/products/Liqui_Moly_Singapore_Top_Tec_4100_5W40_1L_Engine_Oil_580x.png?v=1507264435",
-      "price": 110.00,
-      "stock": "15 in Stock (Can be Backordered)",
-      "sku": "LIQUIMOLYFULLSMOTOROIL5W40"
-    },
-    {
-      "id": "6",
-      "category": "Engine Oil and Filter Parts",
-      "title": "Denso Engine Oil Filter",
-      "description": "Engine oil filter designed for efficient filtration.",
-      "image": "https://www.densoautoparts.com/wp-content/uploads/2022/10/Oil-Filter-web2.png",
-      "price": 15.00,
-      "stock": "27 in Stock (Can be Backordered)",
-      "sku": "MANN245OILF"
-    },
-    {
-      "id": "7",
-      "category": "Wipers",
-      "title": "Rain-X Discover Wiper Blades",
-      "description": "Designed for resistance to cracking and provides resistance to harsh elements.",
-      "image": "https://rainx.ca/wp-content/uploads/2021/08/Discover-Premium-Beam.png",
-      "price": 52.00,
-      "stock": "12 in Stock (Can be Backordered)",
-      "sku": "RAINXDISC"
-    },
-    {
-      "id": "8",
-      "category": "Ignition",
-      "title": "NGK Iridium Spark Plugs",
-      "description": "Long service life and even better ignitability.",
-      "image": "https://www.chongaik.com.sg/4513-superlarge_default/ngk-spark-plug-made-in-japan-platinum-plug.jpg",
-      "price": 52.00,
-      "stock": "31 in Stock (Can be Backordered)",
-      "sku": "BPR5EIX"
-    }
-  ]
+  {
+    "id": "d17d3c6a-5dca-4c93-8bb3-6512fbb69f31",
+    "category": "Brake Parts",
+    "title": "Brembo Front Brake Pad Set",
+    "description": "High-quality front brake pad set for various vehicle models.",
+    "image": "https://www.bremboparts.com/en/media/page/images/1000-1000-fix/60865a7b-935d-4d23-98a1-98b3850594d2",
+    "price": 35.00,
+    "stock": "9 in Stock (Can be Backordered)",
+    "sku": "BREMBOFBRAKEPADSET"
+  },
+  {
+    "id": "f8e929f3-7a75-4f3b-9619-45f924a190c0",
+    "category": "Brake Parts",
+    "title": "Bosch Rear Brake Pad Set",
+    "description": "High-quality rear brake pad set for various vehicle models.",
+    "image": "https://i.ebayimg.com/images/g/oDgAAOSwXYtYxUif/s-l1600.png",
+    "price": 45.00,
+    "stock": "5 in Stock (Can be Backordered)",
+    "sku": "BOSCHRBRAKEPADSET"
+  },
+  {
+    "id": "896b6c15-937a-4297-a4a1-2f7f8e8f5ae3",
+    "category": "Suspension Parts",
+    "title": "Bilstein Front Suspension Strut Assembly",
+    "description": "Front suspension strut assembly for enhanced ride comfort.",
+    "image": "https://www.autopartsco.com.au/assets/full/84677.png?20210309033015",
+    "price": 75.00,
+    "stock": "2 in Stock (Can be Backordered)",
+    "sku": "BILSTEINFSUSPENSION"
+  },
+  {
+    "id": "acabf150-67bf-4fb0-b1c9-9ad8cd406a5f",
+    "category": "Suspension Parts",
+    "title": "Bilstein Rear Shock Absorber",
+    "description": "Durable rear shock absorber for optimal suspension performance.",
+    "image": "https://www.advancedinstalls.com.au/cdn/shop/products/BilsteinB6Rearshocks_1200x1200.png?v=1631635091",
+    "price": 50.00,
+    "stock": "8 in Stock (Can be Backordered)",
+    "sku": "BILSTEINRSHOCK"
+  },
+  {
+    "id": "4ea76b3d-d8f3-4514-bce2-685636664a8b",
+    "category": "Engine Oil and Filter Parts",
+    "title": "Liqui Moly 5W-40 Top Tec 4100",
+    "description": "High-quality full synthetic motor oil for engine protection.",
+    "image": "https://www.storesingapore.liquimolyasia.com/cdn/shop/products/Liqui_Moly_Singapore_Top_Tec_4100_5W40_1L_Engine_Oil_580x.png?v=1507264435",
+    "price": 110.00,
+    "stock": "15 in Stock (Can be Backordered)",
+    "sku": "LIQUIMOLYFULLSMOTOROIL5W40"
+  },
+  {
+    "id": "7896412d-31b9-4b33-8d27-82e29e312efc",
+    "category": "Engine Oil and Filter Parts",
+    "title": "Denso Engine Oil Filter",
+    "description": "Engine oil filter designed for efficient filtration.",
+    "image": "https://www.densoautoparts.com/wp-content/uploads/2022/10/Oil-Filter-web2.png",
+    "price": 15.00,
+    "stock": "27 in Stock (Can be Backordered)",
+    "sku": "MANN245OILF"
+  },
+  {
+    "id": "a27b3d1b-84f6-4ef7-83a4-7ffaa9de3e0e",
+    "category": "Wipers",
+    "title": "Rain-X Discover Wiper Blades",
+    "description": "Designed for resistance to cracking and provides resistance to harsh elements.",
+    "image": "https://rainx.ca/wp-content/uploads/2021/08/Discover-Premium-Beam.png",
+    "price": 52.00,
+    "stock": "12 in Stock (Can be Backordered)",
+    "sku": "RAINXDISC"
+  },
+  {
+    "id": "b96f52f2-4833-48e5-b930-14e3dbf6e328",
+    "category": "Ignition",
+    "title": "NGK Iridium Spark Plugs",
+    "description": "Long service life and even better ignitability.",
+    "image": "https://www.chongaik.com.sg/4513-superlarge_default/ngk-spark-plug-made-in-japan-platinum-plug.jpg",
+    "price": 52.00,
+    "stock": "31 in Stock (Can be Backordered)",
+    "sku": "BPR5EIX"
+  }
+]
