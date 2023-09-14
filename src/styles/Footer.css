@@ -27,6 +27,11 @@ footer span {
     gap: 5px;
 }
 
+.footer-right {
+    display: flex;
+    gap: 50px;
+}
+
 ul {
     list-style: none;
 }
@@ -46,4 +51,14 @@ ul {
 
 .social-links li:hover {
     color: #d80606;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
 }

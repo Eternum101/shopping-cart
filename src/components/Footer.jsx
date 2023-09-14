@@ -32,6 +32,7 @@ export function Footer() {
                             </li>
                         </ul>
                     </ul>
+                <div className='footer-right'>
                     <ul className='footer-part'>
                         <h3>Information</h3>
                         <li>
@@ -80,6 +81,7 @@ export function Footer() {
                             <a></a>
                         </li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -192,4 +192,25 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #a60303;
 }
 
+@media screen and (max-width: 768px) {
+
+  .shopping-cart-menu {
+      width: 100%;
+  }
+
+  .cart-item {
+      font-size: 0.8rem;
+  }
+
+  .item-image img {
+      width: 60px;
+      height: 50px;
+  }
+
+  .checkout-btn {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
   
