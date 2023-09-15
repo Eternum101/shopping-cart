@@ -1,7 +1,8 @@
 footer {
-    padding: 15px;
+    padding: 20px;
     background-color: #1b1b1b;
     color: white;
+    width: 100%;
 }
 
 footer h3 {
@@ -16,15 +17,14 @@ footer span {
 .footer-links {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     gap: 50px;
-    padding-left: 50px;
-    margin-top: 35px;
 }
 
 .footer-part {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    align-items: center;
 }
 
 .footer-right {
@@ -37,7 +37,7 @@ ul {
 }
 
 .footer-part a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .social-links {
@@ -58,7 +58,9 @@ ul {
     .footer-links {
         flex-direction: column;
         align-items: center;
-        margin-top: 20px;
     }
 
+    footer {
+        text-align: center;
+    }
 }

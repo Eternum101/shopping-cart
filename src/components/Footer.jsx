@@ -75,12 +75,6 @@ export function Footer() {
                             <a>Complaints</a>
                         </li>
                     </ul>
-                    <ul className='footer-part'>
-                        <h3>Data Protection</h3>
-                        <li>
-                            <a></a>
-                        </li>
-                    </ul>
                     </div>
                 </div>
             </div>

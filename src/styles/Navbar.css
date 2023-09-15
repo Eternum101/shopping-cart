@@ -107,7 +107,7 @@ input {
     transition: background-color 0.2s ease-in-out;
     position: absolute;
     top: 50%;
-    right: 25px;
+    right: 10px;
     transform: translateY(-50%);
     display: none;
 }
