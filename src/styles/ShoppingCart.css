@@ -4,6 +4,7 @@
   right: -100%;
   width: 450px;
   height: 100%;
+  overflow-y: auto;
   transition: right 0.3s ease-in-out;
   color: black;
   background-color: #ebebeb;
@@ -11,6 +12,7 @@
   flex-direction: column;
   z-index: 2;
 }
+
   
 .shopping-cart-menu.open {
   right: 0;

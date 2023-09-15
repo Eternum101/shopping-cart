@@ -1,0 +1,49 @@
+.image-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('https://audimediacenter-a.akamaihd.net/system/production/media/43522/images/66427cfbd396de4feced8d29e8efa2c4dd80c7db/A171965_web_960.jpg?1582329733');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.image-about-container h2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.image-about-container span {
+    color: #d80606;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.about-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid #d80606;
+}
+
+.about-info p {
+    width: 750px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-info p {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

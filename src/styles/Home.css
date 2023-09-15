@@ -53,6 +53,10 @@
     background-color: #a60303;
 }
 
+.shop-btn a {
+    color: var(--text-colour);
+}
+
 .card-container {
     font-size: 0.8rem;
     text-transform: uppercase;

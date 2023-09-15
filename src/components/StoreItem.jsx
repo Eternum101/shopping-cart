@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FormatCurrency } from "../utilities/FormatCurrency";
-import { Link, useNavigate } from 'react-router-dom'; // Import Link and useNavigate
+import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Store.css';
 import items from '../data/items.json'
 
@@ -8,7 +8,7 @@ export function StoreItem() {
   const [parts, setParts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const navigate = useNavigate(); // Initialize useNavigate to enable programmatic navigation
+  const navigate = useNavigate();
 
   useEffect(() => {
     setParts(items);
@@ -41,7 +41,6 @@ export function StoreItem() {
             className="part-card"
             onClick={() => handlePartClick(part)}
           >
-            {/* Use Link to navigate to the part details route */}
             <Link to={`/store/${part.id}`} className="part-link">
               <img src={part.image} alt={part.title} />
               <h2>{part.title}</h2>
