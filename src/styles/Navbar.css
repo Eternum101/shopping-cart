@@ -165,5 +165,9 @@ input {
     .nav-link.active {
         border-bottom: none;
     }
+    
+    .header-right {
+        display: flex;
+        gap: 5px;
+    }
 }
-

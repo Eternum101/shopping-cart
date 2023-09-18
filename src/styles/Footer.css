@@ -5,6 +5,14 @@ footer {
     width: 100%;
 }
 
+li {
+    list-style: none;
+}
+
+li a {
+    cursor: pointer;
+}
+
 footer h3 {
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -18,13 +26,12 @@ footer span {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .footer-part {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .footer-right {
@@ -58,6 +65,11 @@ ul {
     .footer-links {
         flex-direction: column;
         align-items: center;
+        gap: 50px;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 
     footer {

@@ -268,11 +268,20 @@ input {
         font-size: 0.8rem;
     }
 
+    .latest-search {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
     .latest-search input {
         font-size: 0.8rem;
     }
 
     .btn-subscribe {
         font-size: 0.8rem;
+        width: 266px;
     }
 }

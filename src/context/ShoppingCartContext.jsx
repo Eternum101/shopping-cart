@@ -13,21 +13,21 @@ export function ShoppingCartProvider( { children } ) {
 
 
     const addItemToCart = (item, quantity) => {
-        const existingItem = cartItems.find((cartItem) => cartItem.id === item.id);
-    
-        if (existingItem) {
-          setCartItems((prevCartItems) =>
-            prevCartItems.map((cartItem) =>
-              cartItem.id === item.id ? { ...cartItem, quantity } : cartItem
-            )
-          );
-        } else {
-          setCartItems((prevCartItems) => [
-            ...prevCartItems,
-            { ...item, quantity },
-          ]);
-        }
-      };
+      const existingItem = cartItems.find((cartItem) => cartItem.id === item.id);
+  
+      if (existingItem) {
+        setCartItems((prevCartItems) =>
+          prevCartItems.map((cartItem) =>
+            cartItem.id === item.id ? { ...cartItem, quantity: cartItem.quantity + quantity } : cartItem
+          )
+        );
+      } else {
+        setCartItems((prevCartItems) => [
+          ...prevCartItems,
+          { ...item, quantity },
+        ]);
+      }
+  };  
 
     const incrementItem = (itemId) => {
       setCartItems((prevCartItems) =>
